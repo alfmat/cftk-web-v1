@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container" style = "height:20px;">
+
+</div>
+
+<div class="row">
+  <div class="col-lg-8">
+    <h1>Contact Us</h1>
+    <p class = "lead">
+      For general inquiries you can reach out to info@carolinaftk.org
+    </p>
+    <form>
+      <h4>Name</h4>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      <div class="container" style="height:10px;">
+
+      </div>
+      <h4>Email</h4>
+      <div class="form-group">
+        <!-- <label for="exampleInputEmail1">Email address</label> -->
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <!-- <div class="container" style="height:10px;">
+
+      </div> -->
+      <h4>Comments</h4>
+      <div class="form-group">
+        <!-- <label for="exampleFormControlTextarea1">Comments</label> -->
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Office Address</h5>
+        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+        <p class="card-text">
+          Room 2500, Carolina Union <br>
+          UNC-Chapel Hill <br>
+          phone: (919) 843-6991
+        </p>
+        <!-- <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a> -->
+      </div>
+    </div>
+    <div class="container" style = "height:10px;">
+
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mailing Adress</h5>
+        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+        <p class="card-text">
+          P.O. Box 628 <br>
+          Chapel Hill, NC 27514-0628 <br>
+          fax: (919) 843-2617
+        </p>
+        <!-- <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style = "height:20px;">
+
+</div>
+
+{% endblock %}
